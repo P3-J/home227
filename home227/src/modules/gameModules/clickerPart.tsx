@@ -13,6 +13,7 @@ const ClickerPart = ({ onClick, currentPoints }: ChildComponentProps) => {
       <Typography variant="h4" gutterBottom>
         Pointless Points
       </Typography>
+      <Typography variant="h6">Points: {currentPoints}</Typography>
       <Button
         variant="contained"
         color="primary"
@@ -21,7 +22,6 @@ const ClickerPart = ({ onClick, currentPoints }: ChildComponentProps) => {
       >
         Click Me!
       </Button>
-      <Typography variant="h6">Points: {currentPoints}</Typography>
     </Box>
   );
 };
